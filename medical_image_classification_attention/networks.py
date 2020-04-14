@@ -15,10 +15,6 @@ except ImportError:
 # https://pytorch.org/docs/stable/nn.functional.html
 # https://github.com/fyu/drn/blob/master/drn.py
 #
-# <From DRN>
-# 마지막 fc대신 1*1 conv로
-# fine-tuning 없어도 된다는 것은 이론적으로 전통적 conv와 dilated conv가 같은것을 보고 있다는 증거,
-# 즉 share 하기 편함
 
 
 model_urls = {
